@@ -9,15 +9,19 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className='container flex'>
+        <div className='container flex '>
           <div className='logo'>
             <img src='./images/logo.png' style={{height:"100px"}} alt='' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
+              <p>
+
+            {navList ? "small" : "flex"}
+              </p>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link onClick={() => setNavList(!navList)} to={list.path}>{list.text}</Link>
+                  <Link  to={list.path}>{list.text}</Link>
                 </li>
               ))}
             </ul>
