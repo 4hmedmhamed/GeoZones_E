@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
+import Logo from './../../images/Logo.png'
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
@@ -11,7 +12,7 @@ const Header = () => {
       <header>
         <div className='container flex '>
           <div className='logo'>
-            <img src='./images/logo.png' style={{height:"100px"}} alt='' />
+            <img src={Logo}  alt='' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>   
