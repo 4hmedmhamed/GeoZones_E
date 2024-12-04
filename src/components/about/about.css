@@ -2,15 +2,21 @@
   margin-bottom: 80px;
 }
 .about .heading {
-  text-align: left;
+  text-align: right;
   width: 100%;
   margin-bottom: 30px;
 }
 .about p {
-  font-size: 15px;
+  font-size: 20px;
   padding-right: 30px;
   margin-bottom: 20px;
+/* font-weight: 700; */
   line-height: 30px;
+  margin: 20px;
+}
+.about img{
+  border-radius: 20px;
+  /* width: 80%; */
 }
 @media screen and (max-width: 768px) {
   .about .container {

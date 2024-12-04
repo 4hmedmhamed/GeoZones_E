@@ -20,7 +20,7 @@ const Team = () => {
                     <i className='fa-solid fa-circle-check'></i>
                   </div>
                   <i className='fa fa-location-dot'></i>
-                  <label>{val.address}</label>
+                  <label >{val.tel}</label>
                   <h4>{val.name}</h4>
 
                   <ul>
