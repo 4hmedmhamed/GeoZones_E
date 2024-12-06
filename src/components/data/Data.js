@@ -131,7 +131,7 @@ export const location = [
   },
   {
     id: 6,
-    name: "صةر من الرفع المساحي",
+    name: "صوره من الرفع المساحي",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -143,7 +143,7 @@ export const team = [
     list: "50",
     cover: "../images/customer/team1.jpg",
     tel: "01065265429",
-    name: "وفاؤ فوزي",
+    name: "وفاء فوزي",
     about: "  مساعد وكاد  ",
     //     بص 
     // علوان رفع وكاد و Arc عارف اني اللي شغال كاد 
