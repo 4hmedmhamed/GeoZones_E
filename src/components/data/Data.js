@@ -1,6 +1,6 @@
 export const nav = [
   {
-    text: "الرائسيه",
+    text: "الرئيسيه",
     path: "/",
   },
   {
@@ -25,111 +25,73 @@ export const featured = [
   {
     cover: "../images/hero/h1.png",
     name: "سكن طلبه",
-    total: "122 ",
+    total: "10 ",
   },
   {
     cover: "../images/hero/h2.png",
     name: "كشك افراد الامن ",
-    total: "155 ",
+    total: "5 ",
   },
   {
     cover: "../images/hero/h3.png",
     name: "مبني كليات",
-    total: "300 ",
+    total: "6 ",
   },
   {
     cover: "../images/hero/h4.png",
     name: "مطاعم",
-    total: "80 ",
+    total: "8 ",
   },
   {
     cover: "../images/hero/h6.png",
     name: "استاد و ملاعب",
-    total: "80 ",
+    total: "4 ",
   },
 ]
 export const list = [
   {
     id: 1,
-    cover: "../images/list/p-1.png",
-    name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
-    category: "For Rent",
-    price: "$3,700",
-    type: "Apartment",
+    cover: "../images/list/1.jpg",
+    name: "AutoCad",
   },
   {
     id: 2,
-    cover: "../images/list/p-2.png",
-    name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
-    category: "For Sale",
-    price: "$9,750",
-    type: "Condos",
+    cover: "../images/list/2.jpg",
+    name: "Soci-Link",
   },
   {
     id: 3,
-    cover: "../images/list/p-7.png",
-    name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
-    category: "For Rent",
-    price: "$5,860",
-    type: "Offices",
+    cover: "../images/list/3.jpg",
+    name: "Arc Gis",
   },
-  {
-    id: 4,
-    cover: "../images/list/p-4.png",
-    name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
-    category: "For Sale",
-    price: "$7,540",
-    type: "Homes & Villas",
-  },
-  {
-    id: 5,
-    cover: "../images/list/p-5.png",
-    name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
-    category: "For Rent",
-    price: "$4,850",
-    type: "Commercial",
-  },
-  {
-    id: 6,
-    cover: "../images/list/p-6.png",
-    name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
-    category: "For Sale",
-    price: "$2,742",
-    type: "Apartment",
-  },
+  
 ]
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
-    name: "Blue Burmin Award",
+    num: "32 	",
+    name: "عدد  الانجارات ",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
-    name: "Mimo X11 Award",
+    num: "10 ",
+    name: "عدد فريق العمل ",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
-    name: "Australian UGC Award",
+    num: "51 ",
+    name: " الافكار الابداعيه ",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
-    name: "IITCA Green Award",
+    num: "95%",
+    name: "نسبه التوافق في اليتم ",
   },
 ]
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
+    name: "من امام الاستاد الجامعي",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -137,7 +99,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "كتابة التقرير",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -145,7 +107,7 @@ export const location = [
   },
   {
     id: 3,
-    name: "Liverpool, London",
+    name: "صوره من امام كلبه الاداب",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -153,7 +115,7 @@ export const location = [
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "انشاء الكوركي و التقرير",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -161,7 +123,7 @@ export const location = [
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "ظبط تسامت وافقيه",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -169,7 +131,7 @@ export const location = [
   },
   {
     id: 6,
-    name: "California, USA",
+    name: "صةر من الرفع المساحي",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -182,6 +144,18 @@ export const team = [
     cover: "../images/customer/team1.jpg",
     tel: "01065265429",
     name: "وفاؤ فوزي",
+    about: "  مساعد وكاد  ",
+    //     بص 
+    // علوان رفع وكاد و Arc عارف اني اللي شغال كاد 
+    // جادو رفع ومساعد واشتغل سيرفر 
+    // رمضان رفع ومساعد برضو و Arc pro
+    // مؤمن مساعد 
+    // يارا رفع 
+    // ليلي كتابة تقرير 
+    // وفاء مساعد وكاد برضو 
+    // زينب كروكي
+    // قمر وعزة ArcGis
+
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -189,6 +163,8 @@ export const team = [
     cover: "../images/customer/team2.jpg",
     tel: "01090630431",
     name: "يارا شريف",
+    about: "  رفع بستخدام التوتل  ",
+
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -196,6 +172,7 @@ export const team = [
     cover: "../images/customer/team3.jpg",
     tel: "01091310861",
     name: "ليلي محمد",
+    about: "  كتابة تقرير ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -203,6 +180,7 @@ export const team = [
     cover: "../images/customer/team4.jpg",
     tel: "01061573123",
     name: "زينب",
+    about: "كروكي  ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -210,6 +188,7 @@ export const team = [
     cover: "../images/customer/team5.jpg",
     tel: "01094472581",
     name: "علوان هاني ",
+    about: "      / رفع  Arc / كاد   ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 
@@ -218,6 +197,7 @@ export const team = [
     cover: "../images/customer/team6.jpg",
     tel: "01551642336",
     name: "عزة",
+    about: "  ArcGis  ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -225,6 +205,7 @@ export const team = [
     cover: "../images/customer/team7.jpg",
     tel: "01065299304",
     name: "احمد رمضان",
+    about: "  مساعد وكاد / Arc pro ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -232,6 +213,7 @@ export const team = [
     cover: "../images/customer/team8.jpg",
     tel: "01288318209",
     name: "محمد جادو",
+    about: " سيرفر/ مساعد وكاد  ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -239,6 +221,7 @@ export const team = [
     cover: "../images/customer/team.jpg",
     tel: "01008562685",
     name: "قمر ابراهيم",
+    about: "  ArcGis  ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -246,6 +229,7 @@ export const team = [
     cover: "../images/customer/team9.jpg",
     tel: "01024160825",
     name: "مؤمن يسري",
+    about: "  مساعد   ",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]

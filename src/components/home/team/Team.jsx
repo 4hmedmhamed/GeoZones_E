@@ -21,6 +21,7 @@ const Team = () => {
                   </div>
                   <i className='fa fa-location-dot'></i>
                   <label >{val.tel}</label>
+                  <label >{val.about}</label>
                   <h4>{val.name}</h4>
 
                   <ul>
