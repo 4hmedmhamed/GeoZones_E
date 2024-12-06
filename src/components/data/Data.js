@@ -107,7 +107,7 @@ export const location = [
   },
   {
     id: 3,
-    name: "صوره من امام كلبه الاداب",
+    name: "صوره من امام كلية الاداب",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
