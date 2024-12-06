@@ -57,7 +57,7 @@ export const list = [
   {
     id: 2,
     cover: "../images/list/2.jpg",
-    name: "Soci-Link",
+    name: "Sokkia link",
   },
   {
     id: 3,
